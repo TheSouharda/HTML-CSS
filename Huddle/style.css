@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+header {
+  /* background-color: aquamarine; */
+  width: 90%;
+  margin: 2.7em auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+header button {
+  width: 9.5em;
+  background: none;
+  border-radius: 50px;
+  border: 1.5px solid hsl(322, 100%, 66%);
+  color: hsl(322, 100%, 66%);
+}
+
+.hero {
+  width: 90%;
+  margin: 7em auto;
+  /* background-color: burlywood; */
+  text-align: center;
+}
+
+.hero-image {
+  width: 60%;
+  height: 50%;
+}
+
+.hero-button {
+  display: block;
+}
+
+.hero-heading {
+  width: 65%;
+  font-size: 2.5em;
+  margin: 4em auto 2em;
+}
+
+.hero-para {
+  width: 35%;
+  padding: 0;
+  margin: -4em auto 3em;
+}
+
+.hero-button {
+  margin: -0.5em auto 5em;
+  height: 4em;
+  width: 22%;
+  border-radius: 100vh;
+  border: none;
+  color: white;
+  background: hsl(322, 100%, 66%);
+  box-shadow: 0 9px 5px 0 rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  font-size: 0.8em;
+}
