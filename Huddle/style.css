@@ -135,6 +135,8 @@ header button {
   margin-left: -35em;
 }
 
+/* !THIRD */
+
 .third-container {
   display: flex;
   justify-content: space-around;
@@ -163,4 +165,73 @@ header button {
   width: 60%;
 
   margin-top: 1.5em;
+}
+
+/* !FOURTH */
+
+.fourth-container {
+  background-color: rgb(240, 248, 255);
+  height: 90vh;
+  margin: 8em auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+.fourth-image {
+  width: 30%;
+}
+
+.fourth-info {
+  width: 50%;
+}
+
+.fourth-info h1 {
+  font-size: 2.5em;
+}
+
+.fourth-info p {
+  width: 60%;
+
+  margin-top: 1.5em;
+}
+
+.fourth-image {
+  width: 30%;
+  margin-left: -35em;
+}
+
+/* !fifth */
+
+.fifth {
+  margin-bottom: 7em;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fifth-container {
+  margin-top: 3em;
+}
+
+.fifth-heading {
+  width: 100%;
+  font-size: 2.5em;
+  margin: 0 auto 2em;
+}
+
+.fifth-button {
+  margin-left: 10em;
+  height: 4em;
+  width: 50%;
+  border-radius: 100vh;
+  border: none;
+  color: white;
+  background: hsl(322, 100%, 66%);
+  box-shadow: 0 9px 5px 0 rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
 }
