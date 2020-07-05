@@ -6,7 +6,7 @@
 }
 
 body {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family: "Open Sans";
   width: 100%;
   height: 100%;
@@ -30,10 +30,15 @@ header button {
 }
 
 .hero {
-  width: 90%;
-  margin: 7em auto;
-  /* background-color: burlywood; */
+  width: 100%;
+  margin: 7em auto 0;
+
   text-align: center;
+  padding-bottom: 5em;
+  background-image: url(images/bg-section-top-desktop-1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
 }
 
 .hero-image {
@@ -74,7 +79,7 @@ header button {
 .hero-stats {
   width: 60%;
   display: flex;
-  margin: 8em auto;
+  margin: 8em auto 15em;
   justify-content: space-around;
 }
 
@@ -103,9 +108,9 @@ header button {
 /* !SECOND */
 
 .second-container {
-  background-color: rgb(240, 248, 255);
+  background-color: hsl(207, 100%, 98%);
   height: 90vh;
-  margin: 8em auto;
+  margin: -0.1em auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -139,10 +144,17 @@ header button {
 
 .third-container {
   display: flex;
+  background: url(./images/bg-section-bottom-desktop-1.svg),
+    url(./images/bg-section-top-desktop-2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top, left bottom;
+  padding-top: 10em;
   justify-content: space-around;
   align-items: center;
   height: 90vh;
-  margin: 2em auto;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .third-image {
@@ -153,8 +165,8 @@ header button {
 
 .third-info {
   margin-top: -9em;
-  width: 50%;
-  margin-right: -15em;
+  width: 40%;
+  margin-right: -5em;
 }
 
 .third-info h1 {
@@ -162,7 +174,7 @@ header button {
 }
 
 .third-info p {
-  width: 60%;
+  width: 70%;
 
   margin-top: 1.5em;
 }
@@ -170,9 +182,10 @@ header button {
 /* !FOURTH */
 
 .fourth-container {
-  background-color: rgb(240, 248, 255);
+  background-color: hsl(207, 100%, 98%);
+
   height: 90vh;
-  margin: 8em auto;
+  margin: -2em auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -205,8 +218,14 @@ header button {
 /* !fifth */
 
 .fifth {
+  background: url(./images/bg-section-bottom-desktop-2.svg),
+    url(./images/bg-footer-top-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top, left bottom;
   margin-bottom: 7em;
   height: 60vh;
+  padding: 10em 0 15em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -234,4 +253,10 @@ header button {
   font-weight: 600;
   font-size: 1em;
   cursor: pointer;
+}
+
+footer {
+  margin-top: -7.1em;
+  background-color: hsl(192, 100%, 9%);
+  color: white;
 }
