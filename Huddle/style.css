@@ -260,3 +260,58 @@ footer {
   background-color: hsl(192, 100%, 9%);
   color: white;
 }
+
+.attribution {
+  padding-top: 8em;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.col-1 {
+  width: 20%;
+}
+
+.col-1 p {
+  margin-top: 1.5em;
+  line-height: 1.5em;
+}
+
+.col-2 {
+  width: 40%;
+}
+
+.col-2 p {
+  width: 50%;
+  margin-top: 1.5em;
+  line-height: 1.5em;
+}
+
+.type {
+  margin-top: 2em;
+}
+
+.type-box {
+  height: 3em;
+  width: 40%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.type-btn{
+
+  margin-left: 2em;
+  height: 2.5em;
+  width: 22%;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background: hsl(322, 100%, 66%);
+  box-shadow: 0 9px 5px 0 rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+}
